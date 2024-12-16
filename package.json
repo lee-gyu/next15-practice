@@ -1,0 +1,38 @@
+{
+  "name": "@lee-gyu/next15-practice",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Lee Gyu Cheol <leegyu4dev@gmail.com>",
+  "engines": {
+    "node": "^22.12.0"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@9.13.2",
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "typescript": "^5.7.2"
+  },
+  "volta": {
+    "node": "22.12.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:@next/next/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
